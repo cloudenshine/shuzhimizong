@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shuzhimizong/static/css/main.e6c13ad2.css",
+    "main.js": "/shuzhimizong/static/js/main.ae5e04a4.js",
+    "static/js/453.58be09d8.chunk.js": "/shuzhimizong/static/js/453.58be09d8.chunk.js",
+    "index.html": "/shuzhimizong/index.html",
+    "main.e6c13ad2.css.map": "/shuzhimizong/static/css/main.e6c13ad2.css.map",
+    "main.ae5e04a4.js.map": "/shuzhimizong/static/js/main.ae5e04a4.js.map",
+    "453.58be09d8.chunk.js.map": "/shuzhimizong/static/js/453.58be09d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ae5e04a4.js"
+  ]
+}
