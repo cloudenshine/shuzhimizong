@@ -16,12 +16,12 @@ jobs:
           node-version: '20'
       - run: npm install
       - run: npm run build
-      - name: Add CNAME (if using custom domain)
-        run: |
-          echo "" # 如有 CNAME 自定义请填写
+      # 如无 CNAME 可删除下面这段
+      # - name: Add CNAME (if using custom domain)
+      #   run: echo ""
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .build
+          publish_dir: ./build
           publish_branch: gh-pages
